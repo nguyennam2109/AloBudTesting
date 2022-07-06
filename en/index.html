@@ -33,11 +33,20 @@ http://www.templatemo.com/tm-490-comila
       .dropdown-mobile{ 
         display: block; 
       }
-    } 
-    .download{
-      display: flex;
-      position: absolute;
-      bottom: 10%;  
+    }   
+    #home{ 
+      position: relative;
+    }
+    .download{  
+      display: block;
+      position: absolute; 
+      bottom: 0;
+      left: 0;
+      right: 0; 
+      margin-bottom: 30px;  
+    }
+    .home-thumb{
+      height: 100%;
     }
     .download button{
       background-color: transparent;
@@ -46,7 +55,8 @@ http://www.templatemo.com/tm-490-comila
     .download button img{
       display: block;
       max-width: 100%;
-      height: auto;
+      height: auto; 
+      max-width: 160px;
     }
   </style>
 </head>
@@ -109,17 +119,13 @@ http://www.templatemo.com/tm-490-comila
           			<a href="#about" class="btn btn-lg btn-default smoothScroll wow fadeInUp " data-wow-delay="0.8s">Tìm hiểu</a>
         			<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-lg btn-success smoothScroll wow fadeInUp hidden-xs" data-wow-delay="1.0s">Đăng nhập</a>
 				</div>
-			</div>
-      <div class="download col-md-offset-1">
-        <div>
-          <button ><img src="images/apple_app_icon.png" alt="apple_app_icon-logo"></button> 
-        </div>  
-        <div>
-          <button ><img src="images/android_app_icon.png" alt="android_app_icon-logo"></button>
-        </div> 
-      </div>
+			</div> 
 		</div>
-	</div>		
+	</div>
+  <div class="download">
+    <button ><img src="images/apple_app_icon.png" alt="apple_app_icon-logo"></button>  
+    <button ><img src="images/android_app_icon.png" alt="android_app_icon-logo"></button>  
+  </div>  		
 </section>
 
 <!-- about section -->
