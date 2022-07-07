@@ -29,11 +29,6 @@ http://www.templatemo.com/tm-490-comila
 	<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
   <style>
     .navbar{padding:50px;position:absolute;right:0}.dropdown a,.dropdown-mobile a{font-size:1rem;line-height:2rem;font-weight:500;letter-spacing:.3rem;color:#fff;text-decoration:none}.dropdown-mobile{text-decoration:none;list-style-type:none;display: none;}.dropdown a:hover,.dropdown a:focus{background-color:transparent !important}.dropdown .dropdown-menu{display:block;visibility:hidden;opacity:0;transition:all .2s ease-in-out}.dropdown:hover .dropdown-menu,.dropdown-mobile:hover .dropdown-menu{visibility:visible;opacity:1;padding:1rem 2rem;margin-top:8px;margin-left:auto;box-shadow:0 5px 10px 1px rgb(20 20 28 / 30%);border-radius:6px;background:#111112}.dropdown-mobile:hover .dropdown-menu{top: auto;margin-left: auto;margin-right: auto;left: 0;right: 1rem;}.dropdown .dropdown-menu li a,.dropdown-mobile .dropdown-menu li a{color:#fff;font-size:1rem;font-weight:700}.dropdown .dropdown-menu li a:hover{color:#FF6}
-    @media screen and (max-device-width: 480px) {
-      .dropdown-mobile{ 
-        display: block; 
-      }
-    }    
     .download{  
       display: block;
       position: absolute; 
@@ -55,6 +50,19 @@ http://www.templatemo.com/tm-490-comila
       height: auto; 
       max-width: 160px;
     }
+    @media screen and (max-device-width: 480px) {
+      .dropdown-mobile{ 
+        display: block; 
+      }
+    }
+    @media only screen and (min-width: 64.063em) {
+      .download button{
+        margin-right: 20px;
+        margin-left: -16px;
+      }
+      
+     }    
+    
   </style>
 </head>
 <body>
